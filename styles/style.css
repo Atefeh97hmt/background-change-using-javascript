@@ -1,0 +1,51 @@
+﻿
+body{
+    font-family: 'vazir';
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #045d80;
+
+}
+
+
+.box{
+    top: 40px;
+    right: 40px;
+    padding: 10px;
+    background: #ffffff60;
+    display: flex;
+    border-radius: 50px;
+}
+
+.box a{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 50px;
+
+    text-indent: -9999px;
+}
+
+#red{
+    background: #b90000;
+}
+#blue{
+    background: #1b7fd1;
+}
+#green{
+    background: #239b5f;
+}
+#gray{
+    background: #5b6f79;
+}
+#yellow{
+    background: #e0d208;
+}
+#orange{
+    background: #bf540c;
+}
